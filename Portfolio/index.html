@@ -1,0 +1,281 @@
++
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harshit's Portfolio</title>
+  <link rel="icon" type="image/png" href="icon-1.png"/>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header class="fixed-header">
+    <nav>
+      <div><img class="iconimg" src="icon.png" alt=""></div>
+      <div class="left"><span class="bo">𝓗𝓪𝓻𝓼𝓱𝓲𝓽</span></div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#pro">Projects</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#con">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="home"><img class="resize" src="img.png" alt="" /></div>
+  <main>
+    <section class="firstsection">
+      <div class="leftsection">
+        Hi,My name is <span class="blue">Harshit</span>
+        and I am a passionate
+        <div><span id="ele"></span></div>
+        <div class="wrapper">
+          <a href="https://github.com/Harshit1526" target="_blank" class="icon-link">
+            <div class="box">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </div>
+          </a>
+          <a href="http://www.linkedin.com/in/harshit-sharma1523" target="_blank" class="icon-link">
+            <div class="box">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="rightsection"><img src="devlop.png" alt="" /></div>
+    </section>
+    <hr>
+    <!-- -----------------about section-------------->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="prof.png">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub">About Me</h1>
+            <p>
+              I'm a passionate engineering student aspiring to excel as a Web
+              developer and Programmer. I am skilled in a variety of programming
+              languages and technologies, including Python, C++, C, JavaScript, SQL,
+              MongoDB, and full-stack development. I believe in technology's
+              potential for positive change and seek to address real-world
+              challenges. I am a quick learner and I am always eager to take on new
+              challenges. I am also a team player and I am always willing to help
+              others. I am confident that my skills and experience would be a
+              valuable asset to any team.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <hr id="fun">
+            <div class="tab-contains active-tab" id="skills">
+              <ul>
+                <li><span>Programming</span><br>C<br>C++<br>DSA-C++<br>Python<br>JavaScript<br>MongoDB/SQL</li>
+                <li><span>Web Development</span><br>Web app Development using Html Css&js</li>
+              </ul>
+            </div>
+            <div class="tab-contains" id="education">
+              <ul>
+                <li><span>2023-Current</span><br>Bachelor in Engineering in Electronics and Computer Science at Thakur
+                  College of Engineering and Technology</li>
+                <li><span>2021</span><br>Completed my 12th from Thakur Vidya Mandir High School & Jr College
+                  with CGPA of 8.7 </li>
+                <li><span>2018</span><br>Completed my 10th from Adarsh Vidya Mandir High School with CGPA of 7.9</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- ------------projects-------------- -->
+    <hr id="pro">
+
+    <div id="projects">
+      <div class="tain">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="iicon.png">
+            <div class="layer">
+              <h3>Social Media Site</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, officiis mollitia temporibus eveniet
+                doloribus nam illo veniam. Ex, nisi. Magnam, dicta ex! Illum a adipisci voluptatem in, praesentium
+                possimus illo.</p>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="iicon.png">
+            <div class="layer">
+              <h3>Social Media Site</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, officiis mollitia temporibus eveniet
+                doloribus nam illo veniam. Ex, nisi. Magnam, dicta ex! Illum a adipisci voluptatem in, praesentium
+                possimus illo.</p>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="iicon.png">
+            <div class="layer">
+              <h3>Social Media Site</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, officiis mollitia temporibus eveniet
+                doloribus nam illo veniam. Ex, nisi. Magnam, dicta ex! Illum a adipisci voluptatem in, praesentium
+                possimus illo.</p>
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="bt" onclick="toggleProjects()">See more</div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <!-- --------------contact----------------- -->
+    <hr id="con">
+    <div class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>harshit2003s@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8104956266</p>
+            <div class="social-icon">
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" id="" rows="7" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="copyright">
+        &copy; 2023 Harshit Portfolio. All rights reserved.
+      </div>
+    </footer>
+
+
+    <!-- ... (remaining content) ... -->
+
+
+  </main>
+  <script src="https://kit.fontawesome.com/e382c13cf3.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#ele", {
+      strings: ["Software Engineer", "Full Stack Developer", "Programmer"],
+      typeSpeed: 70,
+      loop: true,
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/8ae8597565.js" crossorigin="anonymous"></script>
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontains = document.getElementsByClassName("tab-contains");
+
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontain of tabcontains) {
+        tabcontain.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    // Add this JavaScript code to your existing <script> block
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const viewProjectLinks = document.querySelectorAll(".view-project");
+      const projectDescriptions = document.querySelectorAll(".project-description");
+      const projectDetails = document.querySelectorAll(".project-details");
+
+      viewProjectLinks.forEach((link, index) => {
+        link.addEventListener("click", () => {
+          projectDescriptions[index].classList.toggle("show");
+          projectDetails[index].classList.toggle("show");
+        });
+      });
+    });
+
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyX7j8sjHhvj9MdWoT6aR0drmXba_vdjfkae2u9g8xM350g5CnV_k_j5Xk5YcfUnfWe/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault();
+      msg.innerHTML = "";
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 2000);
+          form.reset()
+        })
+        .catch(error => {
+          console.error('Error!', error.message);
+          msg.innerHTML = "An error occurred. Please try again later.";
+        });
+    })
+  </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const additionalProjects = document.querySelectorAll('.work-hidden');
+      const btBtn = document.querySelector('.bt');
+
+      const toggleProjects = () => {
+        additionalProjects.forEach(project => {
+          project.classList.toggle('work-hidden');
+        });
+
+        btBtn.innerText = (btBtn.innerText === 'See more') ? 'See less' : 'See more';
+      };
+
+      btBtn.addEventListener('click', toggleProjects);
+
+      const viewProjectLinks = document.querySelectorAll(".view-project");
+      viewProjectLinks.forEach((link, index) => {
+        link.addEventListener("click", () => {
+          const projectDescription = projectDescriptions[index];
+          const projectDetail = projectDetails[index];
+
+          projectDescription.classList.toggle("show");
+          projectDetail.classList.toggle("show");
+        });
+      });
+    });
+  </script>
+
+
+  </script>
+</body>
+
+</html>
